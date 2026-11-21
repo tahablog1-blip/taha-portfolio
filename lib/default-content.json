@@ -1,0 +1,796 @@
+{
+  "profile": {
+    "name": {
+      "ar": "طه عبدالهادي محمد",
+      "en": "Taha Abdelhady Mohamed"
+    },
+    "short": {
+      "ar": "طه عبدالهادي",
+      "en": "TAHA ABDELHADY"
+    },
+    "title": {
+      "ar": "العمليات التجارية والتكنولوجيا",
+      "en": "Business Operations & Technology Enthusiast"
+    },
+    "intro": {
+      "ar": "متخصص بخبرة في المحاسبة والعمليات التجارية وخدمة العملاء والإدارة والتقنيات الرقمية.",
+      "en": "Professional with experience in accounting, business operations, customer relations, administration, and digital technologies."
+    },
+    "identity": {
+      "ar": [
+        "العمليات التجارية",
+        "المحاسبة",
+        "الإدارة",
+        "التكنولوجيا",
+        "الذكاء الاصطناعي",
+        "الحلول الرقمية",
+        "التصميم الجرافيكي"
+      ],
+      "en": [
+        "Business Operations",
+        "Accounting",
+        "Administration",
+        "Technology",
+        "AI",
+        "Digital Solutions",
+        "Graphic Design"
+      ]
+    },
+    "location": {
+      "ar": "الرياض، المملكة العربية السعودية",
+      "en": "Riyadh, Saudi Arabia"
+    },
+    "email": "",
+    "phone": "",
+    "whatsapp": "",
+    "linkedin": "",
+    "github": "",
+    "photo": "/img/portrait_cut.webp",
+    "photoHd": "/img/portrait_hd.jpg",
+    "model": "/model/taha.json"
+  },
+  "recruit": {
+    "ar": "تبحث عن شخص مخلص يجمع بين الخبرة العملية في الأعمال والمعرفة التشغيلية والتفكير التقني؟ خلّينا نتواصل.",
+    "en": "Looking for a dedicated professional who combines business experience, operational knowledge, and technological thinking? Let's connect."
+  },
+  "about": {
+    "ar": [
+      "أنا طه عبدالهادي محمد، متخصص في الأعمال المالية والإدارية والتشغيلية، أمتلك خبرة عملية في المحاسبة وإدارة العمليات وخدمة العملاء ومتابعة أداء الفروع.",
+      "أهتم بتطوير بيئات العمل من خلال التكنولوجيا والحلول الرقمية، وأسعى إلى دمج الخبرة العملية مع أدوات الذكاء الاصطناعي والتصميم والتطوير التقني لبناء حلول أكثر كفاءة واحترافية.",
+      "أؤمن بالتعلم المستمر وتطوير المهارات وتحويل الأفكار إلى مشاريع عملية قابلة للتنفيذ."
+    ],
+    "en": [
+      "I'm Taha Abdelhady Mohamed, a professional in financial, administrative and operational work, with hands-on experience in accounting, operations management, customer service and branch performance follow-up.",
+      "I care about improving workplaces through technology and digital solutions, and I aim to combine practical experience with AI tools, design and technical development to build more efficient, professional solutions.",
+      "I believe in continuous learning, building skills, and turning ideas into practical projects that can be delivered."
+    ]
+  },
+  "highlights": [
+    {
+      "icon": "briefcase",
+      "title": {
+        "ar": "الخبرة المهنية",
+        "en": "Professional Experience"
+      },
+      "text": {
+        "ar": "8 سنوات في Penny Market كمحاسب مالي (2014 – 2022).",
+        "en": "8 years at Penny Market as a Financial Accountant (2014 – 2022)."
+      }
+    },
+    {
+      "icon": "settings-2",
+      "title": {
+        "ar": "العمليات التجارية",
+        "en": "Business Operations"
+      },
+      "text": {
+        "ar": "متابعة العمليات اليومية للفرع ودعم الأنشطة الإدارية.",
+        "en": "Supervising daily branch operations and supporting admin work."
+      }
+    },
+    {
+      "icon": "calculator",
+      "title": {
+        "ar": "المحاسبة المالية",
+        "en": "Financial Accounting"
+      },
+      "text": {
+        "ar": "المعاملات اليومية، الفواتير، وإدارة النقدية.",
+        "en": "Daily transactions, invoices and cash management."
+      }
+    },
+    {
+      "icon": "handshake",
+      "title": {
+        "ar": "علاقات العملاء",
+        "en": "Customer Relations"
+      },
+      "text": {
+        "ar": "خدمة العملاء وبناء علاقات طويلة معهم.",
+        "en": "Customer service and long-term relationships."
+      }
+    },
+    {
+      "icon": "workflow",
+      "title": {
+        "ar": "التحول الرقمي",
+        "en": "Digital Transformation"
+      },
+      "text": {
+        "ar": "تحويل الإجراءات اليدوية لأنظمة وحلول رقمية.",
+        "en": "Turning manual processes into digital systems."
+      }
+    },
+    {
+      "icon": "sparkles",
+      "title": {
+        "ar": "الذكاء الاصطناعي والتقنية",
+        "en": "AI & Technology"
+      },
+      "text": {
+        "ar": "استخدام أدوات الذكاء الاصطناعي في المحتوى والعمل.",
+        "en": "Using AI tools for content and everyday work."
+      }
+    }
+  ],
+  "experience": [
+    {
+      "company": {
+        "ar": "Penny Market",
+        "en": "Penny Market"
+      },
+      "role": {
+        "ar": "محاسب مالي",
+        "en": "Financial Accountant"
+      },
+      "from": "2014",
+      "to": "2022",
+      "points": {
+        "ar": [
+          "المحاسبة المالية والمعاملات اليومية.",
+          "عمليات الكاشير وإدارة النقدية.",
+          "مراجعة وإصدار الفواتير.",
+          "خدمة العملاء وإدارة العلاقات معهم.",
+          "الإشراف على العمليات اليومية للفرع.",
+          "إعداد وإدارة تقارير Excel.",
+          "متابعة أداء الموظفين.",
+          "دعم الأنشطة التشغيلية والإدارية."
+        ],
+        "en": [
+          "Financial accounting and daily transactions.",
+          "Cashier operations and cash management.",
+          "Reviewing and issuing invoices.",
+          "Customer service and relationship management.",
+          "Supervising daily branch operations.",
+          "Preparing and managing Excel reports.",
+          "Monitoring employee performance.",
+          "Supporting operational and administrative activities."
+        ]
+      }
+    }
+  ],
+  "skillCats": [
+    {
+      "id": "business",
+      "icon": "landmark",
+      "name": {
+        "ar": "مالية وأعمال",
+        "en": "Financial & Business"
+      }
+    },
+    {
+      "id": "tech",
+      "icon": "cpu",
+      "name": {
+        "ar": "تقنية",
+        "en": "Technical"
+      }
+    },
+    {
+      "id": "creative",
+      "icon": "palette",
+      "name": {
+        "ar": "إبداعية",
+        "en": "Creative"
+      }
+    },
+    {
+      "id": "personal",
+      "icon": "user-round-check",
+      "name": {
+        "ar": "شخصية",
+        "en": "Personal"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "cat": "business",
+      "name": {
+        "ar": "المحاسبة المالية",
+        "en": "Financial Accounting"
+      },
+      "level": null
+    },
+    {
+      "cat": "business",
+      "name": {
+        "ar": "إدارة النقدية",
+        "en": "Cash Management"
+      },
+      "level": null
+    },
+    {
+      "cat": "business",
+      "name": {
+        "ar": "إدارة الفواتير",
+        "en": "Invoice Management"
+      },
+      "level": null
+    },
+    {
+      "cat": "business",
+      "name": {
+        "ar": "العمليات التجارية",
+        "en": "Business Operations"
+      },
+      "level": null
+    },
+    {
+      "cat": "business",
+      "name": {
+        "ar": "الإشراف على الفروع",
+        "en": "Branch Supervision"
+      },
+      "level": null
+    },
+    {
+      "cat": "business",
+      "name": {
+        "ar": "خدمة العملاء",
+        "en": "Customer Service"
+      },
+      "level": null
+    },
+    {
+      "cat": "tech",
+      "name": {
+        "ar": "Microsoft Excel",
+        "en": "Microsoft Excel"
+      },
+      "level": null
+    },
+    {
+      "cat": "tech",
+      "name": {
+        "ar": "Microsoft Word",
+        "en": "Microsoft Word"
+      },
+      "level": null
+    },
+    {
+      "cat": "tech",
+      "name": {
+        "ar": "أدوات الذكاء الاصطناعي",
+        "en": "AI Tools"
+      },
+      "level": null
+    },
+    {
+      "cat": "tech",
+      "name": {
+        "ar": "الحلول الرقمية",
+        "en": "Digital Solutions"
+      },
+      "level": null
+    },
+    {
+      "cat": "tech",
+      "name": {
+        "ar": "البرامج والأنظمة",
+        "en": "Software & Systems"
+      },
+      "level": null
+    },
+    {
+      "cat": "tech",
+      "name": {
+        "ar": "تنظيم البيانات",
+        "en": "Data Organization"
+      },
+      "level": null
+    },
+    {
+      "cat": "creative",
+      "name": {
+        "ar": "Adobe Photoshop",
+        "en": "Adobe Photoshop"
+      },
+      "level": null
+    },
+    {
+      "cat": "creative",
+      "name": {
+        "ar": "التصميم الجرافيكي",
+        "en": "Graphic Design"
+      },
+      "level": null
+    },
+    {
+      "cat": "creative",
+      "name": {
+        "ar": "المحتوى المرئي",
+        "en": "Visual Content"
+      },
+      "level": null
+    },
+    {
+      "cat": "creative",
+      "name": {
+        "ar": "أفكار تسويقية",
+        "en": "Marketing Concepts"
+      },
+      "level": null
+    },
+    {
+      "cat": "personal",
+      "name": {
+        "ar": "حل المشكلات",
+        "en": "Problem Solving"
+      },
+      "level": null
+    },
+    {
+      "cat": "personal",
+      "name": {
+        "ar": "سرعة التعلم",
+        "en": "Fast Learning"
+      },
+      "level": null
+    },
+    {
+      "cat": "personal",
+      "name": {
+        "ar": "العمل الجماعي",
+        "en": "Teamwork"
+      },
+      "level": null
+    },
+    {
+      "cat": "personal",
+      "name": {
+        "ar": "التواصل",
+        "en": "Communication"
+      },
+      "level": null
+    },
+    {
+      "cat": "personal",
+      "name": {
+        "ar": "المرونة والتكيّف",
+        "en": "Adaptability"
+      },
+      "level": null
+    }
+  ],
+  "projectCats": [
+    {
+      "id": "erp",
+      "icon": "layout-dashboard",
+      "name": {
+        "ar": "إدارة الأعمال وأنظمة ERP",
+        "en": "Business Management & ERP"
+      }
+    },
+    {
+      "id": "auto",
+      "icon": "car",
+      "name": {
+        "ar": "حلول رقمية للسيارات",
+        "en": "Automotive Digital Solutions"
+      }
+    },
+    {
+      "id": "android",
+      "icon": "smartphone",
+      "name": {
+        "ar": "تطبيقات أندرويد",
+        "en": "Android Applications"
+      }
+    },
+    {
+      "id": "ai",
+      "icon": "wand-sparkles",
+      "name": {
+        "ar": "مشاريع الذكاء الاصطناعي والإبداع",
+        "en": "AI & Creative Projects"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "z8-erp",
+      "cat": "erp",
+      "visible": true,
+      "status": "",
+      "title": {
+        "ar": "Z8 ERP",
+        "en": "Z8 ERP"
+      },
+      "desc": {
+        "ar": "نظام لتخطيط موارد المؤسسة يجمع المبيعات والمخزون والحسابات في مكان واحد.",
+        "en": "An ERP system that brings sales, inventory and accounts into one place."
+      },
+      "tech": [],
+      "cover": "",
+      "gallery": [],
+      "demo": "",
+      "source": ""
+    },
+    {
+      "id": "pos",
+      "cat": "erp",
+      "visible": true,
+      "status": "",
+      "title": {
+        "ar": "نظام نقاط البيع",
+        "en": "Point of Sale System"
+      },
+      "desc": {
+        "ar": "نظام كاشير لتسجيل المبيعات وإصدار الفواتير ومتابعة الوردية.",
+        "en": "A cashier system for recording sales, issuing invoices and tracking shifts."
+      },
+      "tech": [],
+      "cover": "",
+      "gallery": [],
+      "demo": "",
+      "source": ""
+    },
+    {
+      "id": "inventory",
+      "cat": "erp",
+      "visible": true,
+      "status": "",
+      "title": {
+        "ar": "إدارة المخزون",
+        "en": "Inventory Management"
+      },
+      "desc": {
+        "ar": "متابعة الأصناف والكميات وحركة المخزون بين الفروع.",
+        "en": "Tracking items, quantities and stock movement between branches."
+      },
+      "tech": [],
+      "cover": "",
+      "gallery": [],
+      "demo": "",
+      "source": ""
+    },
+    {
+      "id": "finance",
+      "cat": "erp",
+      "visible": true,
+      "status": "",
+      "title": {
+        "ar": "الإدارة المالية",
+        "en": "Financial Management"
+      },
+      "desc": {
+        "ar": "تنظيم المصروفات والإيرادات والتقارير المالية.",
+        "en": "Organizing expenses, revenue and financial reports."
+      },
+      "tech": [],
+      "cover": "",
+      "gallery": [],
+      "demo": "",
+      "source": ""
+    },
+    {
+      "id": "oil-filter",
+      "cat": "auto",
+      "visible": true,
+      "status": "",
+      "title": {
+        "ar": "البحث عن زيوت وفلاتر السيارات",
+        "en": "Car Oil & Filter Lookup"
+      },
+      "desc": {
+        "ar": "أداة تعرض الزيت والفلتر المناسبين لكل سيارة حسب الموديل.",
+        "en": "A tool that shows the right oil and filter for each car model."
+      },
+      "tech": [],
+      "cover": "",
+      "gallery": [],
+      "demo": "",
+      "source": ""
+    },
+    {
+      "id": "maintenance-db",
+      "cat": "auto",
+      "visible": true,
+      "status": "",
+      "title": {
+        "ar": "قاعدة بيانات صيانة المركبات",
+        "en": "Vehicle Maintenance Database"
+      },
+      "desc": {
+        "ar": "سجل لمواعيد وتفاصيل صيانة كل مركبة.",
+        "en": "A record of maintenance dates and details for each vehicle."
+      },
+      "tech": [],
+      "cover": "",
+      "gallery": [],
+      "demo": "",
+      "source": ""
+    },
+    {
+      "id": "auto-info",
+      "cat": "auto",
+      "visible": true,
+      "status": "",
+      "title": {
+        "ar": "أنظمة معلومات السيارات",
+        "en": "Automotive Information Systems"
+      },
+      "desc": {
+        "ar": "تنظيم بيانات السيارات وقطع الغيار في نظام سهل البحث.",
+        "en": "Organizing car and parts data in an easy-to-search system."
+      },
+      "tech": [],
+      "cover": "",
+      "gallery": [],
+      "demo": "",
+      "source": ""
+    },
+    {
+      "id": "finance-app",
+      "cat": "android",
+      "visible": true,
+      "status": "",
+      "title": {
+        "ar": "تطبيق المالية الشخصية",
+        "en": "Personal Finance App"
+      },
+      "desc": {
+        "ar": "تطبيق أندرويد لتسجيل المصروفات والدخل ومتابعة الميزانية.",
+        "en": "An Android app for logging expenses and income and tracking a budget."
+      },
+      "tech": [],
+      "cover": "",
+      "gallery": [],
+      "demo": "",
+      "source": ""
+    },
+    {
+      "id": "android-utils",
+      "cat": "android",
+      "visible": true,
+      "status": "",
+      "title": {
+        "ar": "تطبيقات أندرويد مساعدة",
+        "en": "Android Utility Apps"
+      },
+      "desc": {
+        "ar": "تطبيقات صغيرة بتسهّل مهام يومية.",
+        "en": "Small apps that make everyday tasks easier."
+      },
+      "tech": [],
+      "cover": "",
+      "gallery": [],
+      "demo": "",
+      "source": ""
+    },
+    {
+      "id": "mobile-business",
+      "cat": "android",
+      "visible": true,
+      "status": "",
+      "title": {
+        "ar": "حلول أعمال للموبايل",
+        "en": "Mobile Business Solutions"
+      },
+      "desc": {
+        "ar": "أدوات موبايل لإدارة الشغل والمتابعة من أي مكان.",
+        "en": "Mobile tools for managing and following up on work from anywhere."
+      },
+      "tech": [],
+      "cover": "",
+      "gallery": [],
+      "demo": "",
+      "source": ""
+    },
+    {
+      "id": "ai-ads",
+      "cat": "ai",
+      "visible": true,
+      "status": "",
+      "title": {
+        "ar": "إعلانات بالذكاء الاصطناعي",
+        "en": "AI-Powered Advertising"
+      },
+      "desc": {
+        "ar": "إعلانات وصور ترويجية مصنوعة بأدوات الذكاء الاصطناعي.",
+        "en": "Ads and promotional visuals made with AI tools."
+      },
+      "tech": [],
+      "cover": "",
+      "gallery": [],
+      "demo": "",
+      "source": ""
+    },
+    {
+      "id": "3d-products",
+      "cat": "ai",
+      "visible": true,
+      "status": "",
+      "title": {
+        "ar": "عروض منتجات ثلاثية الأبعاد",
+        "en": "3D Product Presentations"
+      },
+      "desc": {
+        "ar": "عرض المنتجات بموديلات 3D بدل الصور العادية.",
+        "en": "Presenting products as 3D models instead of flat photos."
+      },
+      "tech": [],
+      "cover": "",
+      "gallery": [],
+      "demo": "",
+      "source": ""
+    },
+    {
+      "id": "marketing-content",
+      "cat": "ai",
+      "visible": true,
+      "status": "",
+      "title": {
+        "ar": "محتوى تسويق رقمي",
+        "en": "Digital Marketing Content"
+      },
+      "desc": {
+        "ar": "تصاميم ومحتوى للسوشيال ميديا والحملات.",
+        "en": "Designs and content for social media and campaigns."
+      },
+      "tech": [],
+      "cover": "",
+      "gallery": [],
+      "demo": "",
+      "source": ""
+    }
+  ],
+  "services": [
+    {
+      "icon": "layout-dashboard",
+      "title": {
+        "ar": "حلول الأعمال وأنظمة ERP",
+        "en": "Business & ERP Solutions"
+      },
+      "desc": {
+        "ar": "تنظيم شغل الشركة في نظام واحد يربط الأقسام ببعض.",
+        "en": "Organizing a company's work in one system that connects its departments."
+      }
+    },
+    {
+      "icon": "scan-barcode",
+      "title": {
+        "ar": "أنظمة نقاط البيع والمخزون",
+        "en": "POS & Inventory Systems"
+      },
+      "desc": {
+        "ar": "تجهيز كاشير ومخزون منظم للمحلات والفروع.",
+        "en": "Setting up a cashier and organized inventory for shops and branches."
+      }
+    },
+    {
+      "icon": "sheet",
+      "title": {
+        "ar": "تقارير Excel وتنظيم البيانات",
+        "en": "Excel Reporting & Data Organization"
+      },
+      "desc": {
+        "ar": "تحويل البيانات المتفرقة لتقارير واضحة.",
+        "en": "Turning scattered data into clear reports."
+      }
+    },
+    {
+      "icon": "workflow",
+      "title": {
+        "ar": "استشارات التحول الرقمي",
+        "en": "Digital Transformation Consulting"
+      },
+      "desc": {
+        "ar": "تحديد الإجراءات اليدوية اللي ممكن تتحول لرقمية.",
+        "en": "Finding manual processes that can go digital."
+      }
+    },
+    {
+      "icon": "sparkles",
+      "title": {
+        "ar": "محتوى بالذكاء الاصطناعي",
+        "en": "AI-Powered Content Creation"
+      },
+      "desc": {
+        "ar": "صور ونصوص وإعلانات بأدوات الذكاء الاصطناعي.",
+        "en": "Images, copy and ads made with AI tools."
+      }
+    },
+    {
+      "icon": "pen-tool",
+      "title": {
+        "ar": "التصميم الجرافيكي والمحتوى المرئي",
+        "en": "Graphic Design & Visual Content"
+      },
+      "desc": {
+        "ar": "تصاميم سوشيال ميديا وهوية ومواد مطبوعة.",
+        "en": "Social media designs, identity and print materials."
+      }
+    },
+    {
+      "icon": "chart-no-axes-combined",
+      "title": {
+        "ar": "تحسين إجراءات العمل",
+        "en": "Business Process Improvement"
+      },
+      "desc": {
+        "ar": "مراجعة خطوات الشغل وتقليل الوقت والأخطاء.",
+        "en": "Reviewing workflows to cut time and errors."
+      }
+    },
+    {
+      "icon": "car",
+      "title": {
+        "ar": "حلول رقمية للسيارات",
+        "en": "Automotive Digital Solutions"
+      },
+      "desc": {
+        "ar": "أدوات وقواعد بيانات لمحلات الزيوت والصيانة.",
+        "en": "Tools and databases for oil and maintenance shops."
+      }
+    }
+  ],
+  "education": [
+    {
+      "title": {
+        "ar": "دبلوم التعليم الفني التجاري",
+        "en": "Diploma in Commercial Technical Education"
+      },
+      "school": {
+        "ar": "مدرسة فرشوط الثانوية التجارية",
+        "en": "Farshout Secondary Commercial School"
+      },
+      "spec": {
+        "ar": "التسويق وسوق المال",
+        "en": "Marketing & Capital Market"
+      },
+      "year": "2013"
+    }
+  ],
+  "languages": [
+    {
+      "name": {
+        "ar": "العربية",
+        "en": "Arabic"
+      },
+      "level": {
+        "ar": "اللغة الأم",
+        "en": "Native"
+      }
+    },
+    {
+      "name": {
+        "ar": "الإنجليزية",
+        "en": "English"
+      },
+      "level": {
+        "ar": "متوسط",
+        "en": "Intermediate"
+      }
+    }
+  ],
+  "cv": {
+    "ar": "/cv/taha-cv-ar.pdf",
+    "en": "/cv/taha-cv-en.pdf"
+  },
+  "appearance": {
+    "accent": "#287BFF",
+    "accent2": "#36D9FF"
+  }
+}
