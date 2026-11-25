@@ -89,7 +89,7 @@ function slotHTML(kind){
   return `<div class="slot ${kind==="compact"?"compact":""}" data-slot>
     <div class="slot-inner">
       <div class="halo"></div><div class="ring"></div><div class="floor"></div>
-      <div class="fallback"><img src="${esc(safeUrl(p.photo))}" alt="${esc(tx(p.name))}"></div>
+      <div class="fallback"><div class="float" style="--photo:url('${esc(safeUrl(p.photo))}')"><img src="${esc(safeUrl(p.photo))}" alt="${esc(tx(p.name))}"></div></div>
       <span class="load-pct" data-load-pct>${esc(L().loading3d)}</span>
       <span class="hint3d">${ic("move-3d")}${esc(L().drag)}</span>
     </div>
@@ -493,10 +493,13 @@ function wireContact(){
 }
 
 /* ---------------- 3D character ---------------- */
+const photoMode = () => (C.profile.heroMode || "photo") !== "3d";
 const S = { renderer:null, scene:null, camera:null, model:null, particles:null, lights:{}, loaded:false, failed:false, progress:0,
             mx:0, my:0, drag:0, dragging:false, lastX:0, start:0, visible:true, slot:null, sp:0 };
 
 function init3D(){
+  addEventListener("pointermove", e => { S.mx = (e.clientX/innerWidth - .5)*2; S.my = (e.clientY/innerHeight - .5)*2; if (S.slot && S.photo) { S.slot.style.setProperty("--mx", S.mx.toFixed(3)); S.slot.style.setProperty("--my", S.my.toFixed(3)); } });
+  if (photoMode()) S.photo = true;
   if (!window.THREE || !THREE.GLTFLoader) { S.failed = true; return; }
   try {
     const r = new THREE.WebGLRenderer({ antialias:true, alpha:true, powerPreference:"high-performance" });
@@ -526,7 +529,8 @@ function init3D(){
   const mat = new THREE.PointsMaterial({ size:0.035, map:new THREE.CanvasTexture(cv), transparent:true, depthWrite:false, blending:THREE.AdditiveBlending, color:new THREE.Color(C.appearance?.accent2 || "#36D9FF") });
   S.particles = new THREE.Points(g, mat); scene.add(S.particles);
 
-  new THREE.GLTFLoader().load(safeUrl(C.profile.model), gltf => {
+  if (photoMode()) { S.photo = true; S.start = performance.now(); }
+  else new THREE.GLTFLoader().load(safeUrl(C.profile.model), gltf => {
     const m = gltf.scene;
     const box = new THREE.Box3().setFromObject(m), size = box.getSize(new THREE.Vector3()), ctr = box.getCenter(new THREE.Vector3());
     const s = 1.9 / size.y; m.scale.setScalar(s); m.position.sub(ctr.multiplyScalar(s));
@@ -539,7 +543,6 @@ function init3D(){
     if (xhr.total) { S.progress = xhr.loaded / xhr.total; const el = $("[data-load-pct]"); if (el) el.textContent = `${L().loading3d} ${Math.round(S.progress*100)}%`; setProgress(30 + S.progress*70); }
   }, () => { S.failed = true; });
 
-  addEventListener("pointermove", e => { S.mx = (e.clientX/innerWidth - .5)*2; S.my = (e.clientY/innerHeight - .5)*2; });
   const c = S.renderer.domElement;
   c.addEventListener("pointerdown", e => { S.dragging = true; S.lastX = e.clientX; c.setPointerCapture(e.pointerId); });
   c.addEventListener("pointermove", e => { if (!S.dragging) return; S.drag += (e.clientX - S.lastX) * 0.01; S.lastX = e.clientX; });
@@ -554,6 +557,7 @@ function init3D(){
 function attach3D(){
   const slot = $("[data-slot]");
   S.slot = slot;
+  if (slot && S.photo) slot.classList.add("photo-mode");
   if (!slot || !S.renderer) return;
   $(".slot-inner", slot).appendChild(S.renderer.domElement);
   if (S.loaded) { slot.classList.add("has3d"); S.start = performance.now(); }
@@ -618,7 +622,7 @@ const SCHEMAS = {
   languages: { title:l=>tx(l.name), blank:()=>({ name:{ar:"",en:""}, level:{ar:"",en:""} }),
     fields:[["name","i18n","Language / اللغة"],["level","i18n","Level / المستوى"]] }
 };
-const PROFILE_FIELDS = [["profile.name","i18n","Full name / الاسم"],["profile.short","i18n","Short name (hero) / الاسم المختصر"],["profile.title","i18n","Professional title / المسمى"],["profile.intro","i18nText","Introduction / المقدمة"],["profile.identity","i18nList","Identity keywords, one per line / الكلمات المميزة"],["profile.location","i18n","Location / الموقع"],["about","i18nList","About paragraphs, one per line / فقرات عنّي"],["recruit","i18nText","Recruitment message / رسالة التوظيف"],["profile.photo","image","Character image (fallback) / صورة الشخصية"],["profile.photoHd","image","Profile photo (CV) / صورة السيرة الذاتية"]];
+const PROFILE_FIELDS = [["profile.heroMode","select","Hero visual / شكل الواجهة",()=>[["photo","Photo / صورة"],["3d","3D model / مجسم 3D"]]],["profile.name","i18n","Full name / الاسم"],["profile.short","i18n","Short name (hero) / الاسم المختصر"],["profile.title","i18n","Professional title / المسمى"],["profile.intro","i18nText","Introduction / المقدمة"],["profile.identity","i18nList","Identity keywords, one per line / الكلمات المميزة"],["profile.location","i18n","Location / الموقع"],["about","i18nList","About paragraphs, one per line / فقرات عنّي"],["recruit","i18nText","Recruitment message / رسالة التوظيف"],["profile.photo","image","Hero photo, transparent background / صورة الواجهة بخلفية شفافة"],["profile.photoHd","image","Profile photo (CV) / صورة السيرة الذاتية"]];
 const CONTACT_FIELDS = [["profile.email","text","Email"],["profile.phone","text","Phone"],["profile.whatsapp","text","WhatsApp number with country code (e.g. 9665…)"],["profile.linkedin","text","LinkedIn URL"],["profile.github","text","GitHub URL"]];
 const ADMIN_TABS = [["messages","inbox","Messages / الرسايل"],["profile","user","Profile / الملف"],["contact","phone","Contact / التواصل"],["projects","folder-kanban","Projects / المشاريع"],["experience","briefcase","Experience / الخبرة"],["skills","sparkles","Skills / المهارات"],["services","layers","Services / الخدمات"],["highlights","layout-grid","Highlights / البطاقات"],["education","graduation-cap","Education & languages"],["cv","file-text","CV files / ملفات السيرة"],["appearance","palette","Appearance / الشكل"],["data","database","Backup / نسخة احتياطية"]];
 
@@ -802,7 +806,7 @@ async function boot(){
   const finish = () => { setProgress(100); setTimeout(() => $("#loader").classList.add("done"), 250); };
   // reveal once the model is in, or after 2.5 s at most
   const t0 = performance.now();
-  (function wait(){ if (S.loaded || S.failed || performance.now() - t0 > 2500) finish(); else requestAnimationFrame(wait); })();
+  (function wait(){ if (S.loaded || S.failed || S.photo || performance.now() - t0 > 2500) finish(); else requestAnimationFrame(wait); })();
 
   window.addEventListener("hashchange", () => { $("#drawer").hidden = true; go(parseHash()); });
   window.addEventListener("resize", () => setNav(current?.page));
